@@ -1,0 +1,35 @@
+body {
+    margin: 12;
+    font-size: 10px;
+}
+
+$kodilla-black: #000;
+$kodilla-white: #fff;
+$kodilla-cherry: #983352;
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px;
+    text-align: center;
+}
+
+.pierwszy {
+    @extend .wspolny;
+    color: $kodilla-black;
+}
+
+.drugi {
+    @extend .wspolny;
+    color: $kodilla-white;
+}
+
+.trzeci {
+    @extend .wspolny;
+    color: $kodilla-cherry;
+}
